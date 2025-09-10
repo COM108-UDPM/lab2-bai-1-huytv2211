@@ -8,6 +8,20 @@ int main() {
     printf("COM108, LAB2 - bai1\n");
 
     // Cac lenh nhap vao so A
+    // sinh vien Tran van Huy
+    // tính tổng 2 số a,b
+    int a, b, sum;
+
+    printf("Nhap so a: ");
+    scanf("%d", &a);
+
+    // Cac lenh nhap vao so B
+    printf("Nhap so b: ");
+    scanf("%d", &b);
+
+    // Cac lenh tinh tong cac so A, va B
+    sum = a + b;
+    printf("Tong cua %d va %d la: %d\n", a, b, sum);
 
     
 
